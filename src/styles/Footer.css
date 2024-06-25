@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.footer-container {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 0;
+  margin: 0px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.footer-container .container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.footer-section h5 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #ff6600;
+}
+
+.footer-section a {
+  display: block;
+  color: #aaa;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-about h1 {
+  font-weight: 700;
+  color: #ff6600;
+  margin-bottom: 15px;
+}
+
+.footer-about p {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #aaa;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+@media (max-width: 576px) {
+  .footer-container {
+      padding: 20px 0;
+  }
+
+  .footer-container .container-fluid {
+      padding:  0 10px;
+      margin: 0px;
+  }
+
+  .footer-section{
+    display: none;
+  }
+
+  .social-icons {
+      justify-content: center;
+  }
+}
